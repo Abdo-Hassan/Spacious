@@ -1,22 +1,13 @@
-import { View, Text, StyleSheet, StatusBar } from "react-native";
+import { Stack } from "expo-router";
 import React from "react";
 
 const _layout = () => {
   return (
-    <View>
-      <Text>Spacious</Text>
-      <StatusBar barStyle="light-content" />
-    </View>
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="profile" options={{ headerShown: false }} />
+    </Stack>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
 
 export default _layout;

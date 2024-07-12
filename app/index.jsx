@@ -1,21 +1,17 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, StatusBar } from "react-native";
 import React from "react";
+import { Link } from "expo-router";
 
 const RootLayout = () => {
   return (
-    <View style={styles.container}>
+    <View className="flex-1 items-center justify-center bg-white">
       <Text>Spacious</Text>
+      <StatusBar barStyle="light-content" />
+      <Link href="/profile" style={{ color: "blue" }}>
+        Go to profile
+      </Link>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
 
 export default RootLayout;
