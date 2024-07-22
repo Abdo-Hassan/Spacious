@@ -28,16 +28,16 @@ const App = () => {
           />
 
           <View className="relative mt-5">
-            <Text className="text-3xl text-white font-bold text-center">
+            <Text className="text-2xl text-white font-bold text-center">
               Discover Endless Possibilities with {""}
               <Text className="text-secondary-200">Spacious</Text>
             </Text>
 
-            <Image
+            {/* <Image
               source={images.path}
               resizeMode="contain"
-              className="w-[136px] h-[15px] absolute -bottom-2 -right-8"
-            />
+              className="w-[136px] h-[15px] absolute -bottom-2 right-50"
+            /> */}
           </View>
 
           <Text className="text-sm font-pregular text-gray-100 text-center mt-7">
