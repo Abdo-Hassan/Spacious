@@ -13,10 +13,10 @@ const EmptyState = ({ title, subTitle }) => {
         resizeMode="contain"
       />
 
-      <Text className="font-pmedium text-sm text-gray-100">{title}</Text>
       <Text className="text-xl text-center font-psemibold text-white mt-2">
-        {subTitle}
+        {title}
       </Text>
+      <Text className="font-pmedium text-sm text-gray-100">{subTitle}</Text>
 
       <CustomButton
         title="Create Video"
