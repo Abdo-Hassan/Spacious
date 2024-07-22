@@ -49,7 +49,7 @@ const SignUp = () => {
           />
 
           <Text className="text-2xl text-white mt-10 font-psemibold">
-            Sign up to Aora
+            Sign up to Spacious
           </Text>
 
           {/* Username */}

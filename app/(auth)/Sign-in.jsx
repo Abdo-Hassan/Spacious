@@ -48,7 +48,7 @@ const SignIn = () => {
           />
 
           <Text className="text-2xl text-white mt-10 font-psemibold">
-            Log in to Aora
+            Log in to Spacious
           </Text>
 
           {/* Email */}
